@@ -5,6 +5,15 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
+  "author": {
+    "name": "Wallace Oliveira",
+    "email": "wallacebatistaoliveira@gmail.com",
+    "url": "https://iamwallace.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uselessdev/next-rss"
+  },
   "files": [
     "dist"
   ],
@@ -30,5 +39,8 @@
   "dependencies": {
     "feed": "^4.2.2",
     "showdown": "^1.9.1"
+  },
+  "publishConfig": {
+    "@uselessdev:registry": "https://npm.pkg.github.com"
   }
 }
