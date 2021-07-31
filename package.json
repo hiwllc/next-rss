@@ -27,7 +27,6 @@
     "@rollup/plugin-typescript": "^8.2.3",
     "@types/node": "^16.4.6",
     "@types/showdown": "^1.9.4",
-    "esbuild": "^0.12.16",
     "gray-matter": "^4.0.3",
     "rollup": "^2.55.0",
     "rollup-plugin-dts": "^3.0.2",
@@ -38,8 +37,5 @@
   "dependencies": {
     "feed": "^4.2.2",
     "showdown": "^1.9.1"
-  },
-  "publishConfig": {
-    "@uselessdev:registry": "https://npm.pkg.github.com"
   }
 }
